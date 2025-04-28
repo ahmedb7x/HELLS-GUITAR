@@ -33,6 +33,11 @@ session_start();
 
                     <!-- CONTENU PRINCIPAL -->
                     <div class="col-9 col-12-medium imp-medium">
+                        <?php
+                            
+
+
+                        ?>
                         <section>
                             <h2>Guitares électriques</h2>
                             <div class="row row-cols-1 row-cols-md-2 g-4">
