@@ -35,7 +35,7 @@ session_start();
                     <div class="col-9 col-12-medium imp-medium">
                         <?php
                             
-
+                            include 'database.php';
 
                         ?>
                         <section>
