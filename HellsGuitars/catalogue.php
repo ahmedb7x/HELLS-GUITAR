@@ -34,9 +34,20 @@ session_start();
                     <!-- CONTENU PRINCIPAL -->
                     <div class="col-9 col-12-medium imp-medium">
                         <?php
-                            
-                            include 'database.php';
+/*
+                        include 'database.php';
+                        $bdd = new PDO($source, $user, $pwd);
+                        $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $req = $bdd->prepare('SELECT * FROM categories');
+                        $reponse = $req->execute();
 
+                        $i=0;
+                        $aziz = array();
+                        while ($reponse = $req->fetch()) {
+                            $aziz[$i]=$reponse['idCateg'];
+                            $i+=1;
+                        }
+*/
                         ?>
                         <section>
                             <h2>Guitares électriques</h2>
