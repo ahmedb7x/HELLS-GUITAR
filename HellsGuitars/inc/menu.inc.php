@@ -3,10 +3,10 @@
         <h2>Nos guitares</h2>
     </header>
     <ul class="link-list">
-        <li><a href="catalogue.php">Guitares éléctriques</a></li>
-        <li><a href="#">Guitares Folk</a></li>
-        <li><a href="#">Guitares classiques</a></li>
-        <li><a href="#">Guitares basses</a></li>
+        <li><a href="catalogue.php?c=1">Guitares éléctriques</a></li>
+        <li><a href="catalogue.php?c=2">Guitares Folk</a></li>
+        <li><a href="catalogue.php?c=3">Guitares classiques</a></li>
+        <li><a href="catalogue.php?c=4">Guitares basses</a></li>
     </ul>
 </section>
 <section id="sidentifier">

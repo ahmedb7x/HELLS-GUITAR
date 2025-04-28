@@ -1,5 +1,6 @@
 <?php
 session_start();
+$cat = $_GET['c'];
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -34,23 +35,26 @@ session_start();
                     <!-- CONTENU PRINCIPAL -->
                     <div class="col-9 col-12-medium imp-medium">
                         <?php
-/*
+
                         include 'database.php';
                         $bdd = new PDO($source, $user, $pwd);
                         $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                        $req = $bdd->prepare('SELECT * FROM categories');
+                        $req = $bdd->prepare('SELECT * FROM categories WHERE idCateg=?');
+
                         $reponse = $req->execute();
 
                         $i=0;
-                        $aziz = array();
+                       
                         while ($reponse = $req->fetch()) {
                             $aziz[$i]=$reponse['idCateg'];
                             $i+=1;
                         }
-*/
-                        ?>
-                        <section>
-                            <h2>Guitares électriques</h2>
+
+                        switch($i) {
+                            case 0 :;
+                        }
+                        echo'<section>
+                            <h2>'..'</h2>
                             <div class="row row-cols-1 row-cols-md-2 g-4">
                                 <div class="col-6">
                                     <div class="card">
@@ -65,7 +69,8 @@ session_start();
                                         </div>
                                     </div>
                                 </div>
-                        </section>
+                        </section>';
+                        ?>
                     </div>
 
 
